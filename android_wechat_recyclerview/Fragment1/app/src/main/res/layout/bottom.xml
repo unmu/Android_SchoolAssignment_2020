@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:background="#e5e5e5"
+    android:orientation="horizontal"
+    android:baselineAligned="false">
+
+    <LinearLayout
+        android:id="@+id/id_tab_home"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/imgBtnHome"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#e5e5e5"
+            android:clickable="false"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/tab_weixin_pressed"/>
+
+        <TextView
+            android:id="@+id/txtHome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/home"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_tab_addr"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/imgBtnAddr"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#e5e5e5"
+            android:clickable="false"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/tab_address_normal" />
+
+        <TextView
+            android:id="@+id/txtAddr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:gravity="center"
+            android:text="@string/addr" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_tab_find"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/imgBtnFind"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#e5e5e5"
+            android:clickable="false"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/tab_find_frd_normal" />
+
+        <TextView
+            android:id="@+id/txtFind"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:gravity="center"
+            android:text="@string/find" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_tab_setting"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/imgBtnSetting"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#e5e5e5"
+            android:clickable="false"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/tab_settings_normal" />
+
+        <TextView
+            android:id="@+id/txtSetting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:gravity="center"
+            android:text="@string/setting" />
+    </LinearLayout>
+</LinearLayout>

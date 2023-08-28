@@ -1,0 +1,1 @@
+# android_wechat_contentprovider
